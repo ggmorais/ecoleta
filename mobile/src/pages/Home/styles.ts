@@ -20,6 +20,10 @@ export default StyleSheet.create({
     marginTop: 64,
   },
 
+  picker: {
+    color: '#6C6C80',
+  },
+
   description: {
     color: '#6C6C80',
     fontSize: 16,

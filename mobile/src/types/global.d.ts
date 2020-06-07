@@ -30,3 +30,17 @@ declare interface PointsParams {
   uf: string;
   city: string;
 }
+
+declare interface UF {
+  id: number;
+  initials: string;
+  name: string;
+}
+
+declare interface IBGEUFResponse {
+  sigla: string;
+}
+
+declare interface IBGECityResponse {
+  nome: string;
+}
